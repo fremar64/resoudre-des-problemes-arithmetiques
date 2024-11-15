@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Éducatif de Mathématiques</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <canvas id="renderCanvas"></canvas>
+    <div id="ui">
+        <div id="instructions"></div>
+        <input type="text" id="inputField" placeholder="Votre réponse">
+        <button id="validateButton">Valider</button>
+        <div id="feedback"></div>
+        <div id="score">Score: 0</div>
+        <button id="nextButton">Suite</button>
+    </div>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/gameLogic.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#renderCanvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#instructions, #feedback, #score {
+    margin-bottom: 10px;
+}
+
+#inputField {
+    margin-bottom: 10px;
+}
+
+#validateButton, #nextButton {
+    display: block;
+    margin-bottom: 10px;
+}
